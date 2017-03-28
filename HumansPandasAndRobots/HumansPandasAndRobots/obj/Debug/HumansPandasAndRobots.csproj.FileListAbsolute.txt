@@ -1,0 +1,6 @@
+C:\Users\Nikole McStanley\tiy\week-3\day-2\HumansPandasAndRobots\HumansPandasAndRobots\HumansPandasAndRobots\bin\Debug\HumansPandasAndRobots.exe.config
+C:\Users\Nikole McStanley\tiy\week-3\day-2\HumansPandasAndRobots\HumansPandasAndRobots\HumansPandasAndRobots\bin\Debug\HumansPandasAndRobots.exe
+C:\Users\Nikole McStanley\tiy\week-3\day-2\HumansPandasAndRobots\HumansPandasAndRobots\HumansPandasAndRobots\bin\Debug\HumansPandasAndRobots.pdb
+C:\Users\Nikole McStanley\tiy\week-3\day-2\HumansPandasAndRobots\HumansPandasAndRobots\HumansPandasAndRobots\obj\Debug\HumansPandasAndRobots.csprojResolveAssemblyReference.cache
+C:\Users\Nikole McStanley\tiy\week-3\day-2\HumansPandasAndRobots\HumansPandasAndRobots\HumansPandasAndRobots\obj\Debug\HumansPandasAndRobots.exe
+C:\Users\Nikole McStanley\tiy\week-3\day-2\HumansPandasAndRobots\HumansPandasAndRobots\HumansPandasAndRobots\obj\Debug\HumansPandasAndRobots.pdb

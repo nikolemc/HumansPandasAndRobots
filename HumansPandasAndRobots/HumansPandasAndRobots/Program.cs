@@ -10,6 +10,20 @@ namespace HumansPandasAndRobots
     {
         static void Main(string[] args)
         {
+            var ZiggyBot = new Robot("ZiggyBot");
+            ZiggyBot.StartUp();
+            ZiggyBot.ShutDown();
+
+            var BoBo = new Panda("BoBo");
+            BoBo.Food = "Bamboo";
+            BoBo.Eat();
+           
+
+            var Nikole = new Human("Nikole");
         }
+
+
+
+
     }
 }
