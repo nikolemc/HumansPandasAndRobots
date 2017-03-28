@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace HumansPandasAndRobots
 {
-    class Robot
+    class Robot: MovingObject
     {
 
         //classes should have a "DisplayName()" and a "DisplayGreeting()" method. 
         //The "DisplayName()" function should return the value held in the property "Name".
-        public string Name { get; set; }
+        //public string Name { get; set; }
         public bool Shutdown { get; set; }
 
 

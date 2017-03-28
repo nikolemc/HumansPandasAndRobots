@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace HumansPandasAndRobots
 {
-    class Panda
+    class Panda : MovingObject, Eatingcs, Living
     {
         //classes should have a "DisplayName()" and a "DisplayGreeting()" method. 
         //The "DisplayName()" function should return the value held in the property "Name".
-        public string Name { get; set; }
+        //public string Name { get; set; }
         public string Food { get; set; }
         public bool IsASleep { get; set; }
+        public bool Living { get; set; }
 
         public Panda(string name)
         {
@@ -53,10 +54,16 @@ namespace HumansPandasAndRobots
 
         }
 
-      
+        public void Alive()
+        {
+            Living = true;
+            Console.WriteLine($"I am a living creature");
+        }
 
 
-       
+
+
+
     }
 
 }

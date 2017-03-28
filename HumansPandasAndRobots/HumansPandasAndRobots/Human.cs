@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace HumansPandasAndRobots
 {
-    class Human
+    class Human : MovingObject, Eatingcs
     {
         //classes should have a "DisplayName()" and a "DisplayGreeting()" method. 
         //The "DisplayName()" function should return the value held in the property "Name".
-        public string Name { get; set; }
+        //public string Name { get; set; }
         public bool IsASleep { get; set; }
+        public string Food { get; set; }
+        public bool Living { get; set; }
 
         public Human(string name)
         {
@@ -39,6 +41,17 @@ namespace HumansPandasAndRobots
         {
             IsASleep = false;
             Console.WriteLine("Hello, I am awake");
+        }
+
+        public void Eat()
+        {
+            Console.WriteLine($"I love to eat {this.Food}");
+        }
+
+        public void Alive()
+        {
+            Living = true;
+            Console.WriteLine($"I am alive");
         }
     }
 }
