@@ -8,5 +8,6 @@ namespace HumansPandasAndRobots
 {
     interface Living
     {
+        void Alive();
     }
 }

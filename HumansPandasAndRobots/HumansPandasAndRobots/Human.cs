@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HumansPandasAndRobots
 {
-    class Human : MovingObject, Eatingcs
+    class Human : MovingObject, Eatingcs, Living
     {
         //classes should have a "DisplayName()" and a "DisplayGreeting()" method. 
         //The "DisplayName()" function should return the value held in the property "Name".

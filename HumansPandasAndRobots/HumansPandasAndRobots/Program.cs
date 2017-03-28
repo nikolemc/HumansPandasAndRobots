@@ -10,9 +10,11 @@ namespace HumansPandasAndRobots
     {
         static void Main(string[] args)
         {
+
             var ZiggyBot = new Robot("ZiggyBot");
             ZiggyBot.StartUp();
             ZiggyBot.ShutDown();
+            ZiggyBot.DisplayType();
 
             var Terminator = new Robot("Terminator");
             Terminator.StartUp();
