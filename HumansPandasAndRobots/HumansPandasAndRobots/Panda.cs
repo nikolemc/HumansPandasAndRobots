@@ -12,6 +12,7 @@ namespace HumansPandasAndRobots
         //The "DisplayName()" function should return the value held in the property "Name".
         public string Name { get; set; }
         public string Food { get; set; }
+        public bool IsASleep { get; set; }
 
         public Panda(string name)
         {
@@ -23,6 +24,7 @@ namespace HumansPandasAndRobots
         public void DisplayName()
         {
             Console.WriteLine($"Hello, my name is: {this.Name}");
+          
         }
 
         public void DisplayGreeting()
@@ -34,6 +36,27 @@ namespace HumansPandasAndRobots
         {
             Console.WriteLine($"I love to eat {this.Food}");
         }
+
+        
+
+        public void GoToSleep()
+        {
+            IsASleep = true;
+            Console.WriteLine("Time for Bed, nighty night");
+                     
+        }
+
+        public void WakeUp()
+        {
+            IsASleep = false;
+            Console.WriteLine("Hello, I am awake");      
+
+        }
+
+      
+
+
+       
     }
 
 }

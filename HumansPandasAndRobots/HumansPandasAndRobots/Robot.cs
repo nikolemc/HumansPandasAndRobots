@@ -12,7 +12,8 @@ namespace HumansPandasAndRobots
         //classes should have a "DisplayName()" and a "DisplayGreeting()" method. 
         //The "DisplayName()" function should return the value held in the property "Name".
         public string Name { get; set; }
-        
+        public bool Shutdown { get; set; }
+
 
         public Robot(string name)
         {
@@ -37,19 +38,26 @@ namespace HumansPandasAndRobots
         public void StartUp()
         {
             Console.WriteLine("1,2,3 Robot has Started!");
+            Shutdown = false;
+
         }
 
         public void ShutDown()
         {
             Console.WriteLine("Bye, Robot is shutting down in 3,2,1");
+            Shutdown = true;
         }
 
         //A Robot should have a method called 'IsTerminator()' which returns if that robot is a terminator
         public bool IsTerminator()
         {
+
             return (this.Name == "Terminator"); //this checks if the name is "Terminator" if it is, this rule is true.
            
+
         }
+
+       
     }
 
 }

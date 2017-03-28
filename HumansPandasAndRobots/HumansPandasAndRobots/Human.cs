@@ -11,6 +11,7 @@ namespace HumansPandasAndRobots
         //classes should have a "DisplayName()" and a "DisplayGreeting()" method. 
         //The "DisplayName()" function should return the value held in the property "Name".
         public string Name { get; set; }
+        public bool IsASleep { get; set; }
 
         public Human(string name)
         {
@@ -30,11 +31,13 @@ namespace HumansPandasAndRobots
         }
         public void GoToSleep()
         {
+            IsASleep = true;
             Console.WriteLine("Time for Bed, Cheerio");
         }
 
         public void WakeUp()
         {
+            IsASleep = false;
             Console.WriteLine("Hello, I am awake");
         }
     }

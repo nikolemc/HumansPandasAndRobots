@@ -14,10 +14,13 @@ namespace HumansPandasAndRobots
             ZiggyBot.StartUp();
             ZiggyBot.ShutDown();
 
+            var Terminator = new Robot("Terminator");
+            Terminator.StartUp();
+            Terminator.ShutDown();
+
             var BoBo = new Panda("BoBo");
             BoBo.Food = "Bamboo";
-            BoBo.Eat();
-           
+            BoBo.Eat();           
 
             var Nikole = new Human("Nikole");
         }
